@@ -1,24 +1,81 @@
-.section-title {
-  font-size: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: #829985;
-}
-
 @font-face {
   font-family: Wittgenseino;
   src: url("./assets/fonts/Wittgenstein-Italic-VariableFont_wght.ttf");
 }
 
 body {
+  font-family: Wittgenseino;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+}
+
+body {
   min-height: 100vh;
-  margin: 0;
-  padding: 0;
+}
+
+body {
+  margin: 100;
+  padding: 100;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 25px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #D0D3D4
+}
+
+header {
+  background-color: #566573;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #566573;
+}
+
+.footer {
+  padding: 0 120px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #17202A
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
 }
