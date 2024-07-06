@@ -16,8 +16,8 @@ body {
 }
 
 body {
-  margin: 100;
-  padding: 100;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -43,6 +43,11 @@ body {
   color: #D0D3D4
 }
 
+.nav-link:hover {
+  color: rgb(167, 79, 137);
+  text-decoration: underline;
+}
+
 header {
   background-color: #566573;
 }
@@ -58,7 +63,7 @@ footer {
   line-height: 50px;
   text-decoration: none;
   font-size: 14px;
-  color: #17202A
+  color: #D0D3D4;
 }
 
 html {
@@ -71,11 +76,13 @@ html {
   }
 }
 
+
 .main-container {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.section {
-  width: 50%;
+h1 {
+  font-size: 30px;
+  text-decoration: underline;
 }
