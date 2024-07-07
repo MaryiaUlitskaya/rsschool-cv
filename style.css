@@ -92,3 +92,12 @@ h1 {
   font-size: 30px;
   text-decoration: underline;
 }
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  width: 50%;
+}
